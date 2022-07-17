@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #562EFF;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 29px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player h3{
+    font-size: 18px;
+    margin-left: 16px;
+}
+h1{
+    font-size: 24px;
+    margin: 3px;
+    color: #562EFF;
+    margin-bottom: 40px;
+}
+main{
+    padding: 30px;
+    background-color: white;
+    margin: 36px 285px;
+    border-radius: 5px;
+}
+.top-blog{
+    margin-top: 30px;
+}
