@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 1440px;
+}
+nav{
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #562EFF;
+}
+nav img{
+    height: 100%;
+}
